@@ -1,7 +1,6 @@
 # PUSL3122 - HCI Group Project - Interior Design Application
 
-![App Icon]([assets/icon.png](https://github.com/chamod4915/PUSL3122_HCI/blob/main/Images/Capture5555.PNG))
-
+![App Icon](https://github.com/chamod4915/Property-selling-website/blob/main/webpic/Dashboard.png)  
 ## Overview
 This project is a desktop-based interior design application developed as part of the PUSL3122 module (Human-Computer Interaction, Computer Graphics, and Visualization) at the University of Plymouth. The application is designed for a furniture design company to assist in-store designers in creating customized room layouts using 2D components and visualizing them in 3D.
 
