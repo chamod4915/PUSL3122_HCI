@@ -4,7 +4,6 @@
 ## Overview
 This project is a desktop-based interior design application developed as part of the PUSL3122 module (Human-Computer Interaction, Computer Graphics, and Visualization) at the University of Plymouth. The application is designed for a furniture design company to assist in-store designers in creating customized room layouts using 2D components and visualizing them in 3D.
 
-![Dashboard](assets/dashboard.png)
 
 ## Features
 - 🛠️ Input room dimensions and shapes
@@ -14,7 +13,7 @@ This project is a desktop-based interior design application developed as part of
 - 💾 Save and load design projects
 - 🖱️ Interactive user interface using Java Swing and JavaFX
 
-![3D View](assets/3d_view.png)
+![3D View](https://github.com/chamod4915/PUSL3122_HCI/blob/main/Images/Capture4444.PNG)
 
 ## Technology Stack
 - Java Swing - UI Development
@@ -77,6 +76,10 @@ User testing was conducted with a sample group of in-store furniture designers. 
 - [JavaFX 3D Graphics](https://docs.oracle.com/javase/8/javafx/graphics-tutorial/javafx-3d-graphics.htm)
 - [Java Swing Tutorial](https://docs.oracle.com/javase/tutorial/uiswing/)
 - [Project Video Demonstration](https://youtu.be/XyjZozIutKo?si=L-xyUmC24VjQX9Hm)
+
+## Video Demonstration  
+Watch the project demonstration video here:  
+[Watch the video](https://youtu.be/XyjZozIutKo?si=8Fzf78Cvbb5xcX74)  
 
 ## Contributors
 - Henaka Kumara (10898536)
