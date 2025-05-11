@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+
+<AnchorPane prefHeight="700.0" prefWidth="800.0" styleClass="transactions_container" stylesheets="@../../Styles/Transactions.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.furniwise.pusl3122_hci_project.Controllers.Admin.AllUsersController">
+   <children>
+      <Label layoutX="470.0" layoutY="29.0" style="-fx-padding: 5; -fx-font-size: 30; -fx-font-weight: semi-bold; -fx-alignment: center;" text="All Users" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+      <ListView fx:id="users_list_view" layoutX="43.0" layoutY="161.0" orientation="VERTICAL" prefHeight="560.0" prefWidth="743.0" />
+      <AnchorPane fx:id="root" layoutX="62.0" layoutY="101.0" prefHeight="60.0" prefWidth="706.0" style="-fx-background-color: gray;" styleClass="cell_container" stylesheets="@../../Styles/TransactionCell.css">
+         <children>
+            <Label fx:id="joined_date" layoutX="410.0" layoutY="21.0" styleClass="all_user_table_label" text="Date Joined" AnchorPane.leftAnchor="410.0" />
+            <Label fx:id="firstname_lbl" layoutX="94.0" layoutY="21.0" styleClass="all_user_table_label" text="UserName" AnchorPane.leftAnchor="94.0" />
+            <Line endY="20.0" layoutX="196.0" layoutY="20.0" AnchorPane.leftAnchor="195.5" AnchorPane.topAnchor="19.5" />
+            <Label fx:id="lastname_lbl" layoutX="252.0" layoutY="21.0" styleClass="all_user_table_label" text="Email" AnchorPane.leftAnchor="252.0" AnchorPane.topAnchor="21.0" />
+            <Label fx:id="firstname_lbl1" layoutX="522.0" layoutY="23.0" styleClass="all_user_table_label" text="Update" />
+            <Label fx:id="firstname_lbl2" layoutX="611.0" layoutY="23.0" styleClass="all_user_table_label" text="Delete" />
+            <Line endY="20.0" layoutX="353.0" layoutY="22.0" />
+            <Line endY="20.0" layoutX="508.0" layoutY="23.0" />
+            <Line endY="20.0" layoutX="589.0" layoutY="23.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

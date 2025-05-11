@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="414.0" prefWidth="606.0" styleClass="dashboard" stylesheets="@../Styles/Dashboard.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.furniwise.pusl3122_hci_project.Controllers.RoomOneSelectController">
+   <children>
+      <HBox layoutX="7.0" layoutY="68.0" prefHeight="363.0" prefWidth="600.0" styleClass="accounts_view" AnchorPane.leftAnchor="7.0" AnchorPane.topAnchor="68.0">
+         <children>
+            <AnchorPane prefHeight="150.0" prefWidth="295.0">
+               <children>
+                  <AnchorPane layoutY="-2.0" prefHeight="343.0" prefWidth="552.0">
+                     <styleClass>
+                        <String fx:value="account" />
+                        <String fx:value="account_gradient" />
+                     </styleClass>
+                     <children>
+                        <VBox layoutX="174.0" prefHeight="257.0" prefWidth="57.0" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="14.0" />
+                        <FontAwesomeIconView glyphName="BANK" layoutX="481.0" layoutY="62.0" size="50" AnchorPane.rightAnchor="13.85714340209961" AnchorPane.topAnchor="19.14285659790039" />
+                        <Text layoutX="22.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 25;" text="Select A Funiture To Add To The Room" AnchorPane.bottomAnchor="297.5" AnchorPane.leftAnchor="22.0" />
+                        <Button fx:id="chair_btn" layoutX="41.0" layoutY="73.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="170.0" styleClass="room_object_select_btn" text="Chair" />
+                        <Button fx:id="table_btn" layoutX="276.0" layoutY="73.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="170.0" styleClass="room_object_select_btn" text="Table" />
+                        <Button fx:id="round_table_btn" layoutX="41.0" layoutY="227.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="170.0" styleClass="room_object_select_btn" text="Round Table" />
+                        <Button fx:id="bed_btn" layoutX="283.0" layoutY="227.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="158.0" styleClass="room_object_select_btn" text="Bed" />
+                     </children>
+                  </AnchorPane>
+               </children>
+            </AnchorPane>
+         </children>
+      </HBox>
+      <HBox layoutX="22.0" layoutY="416.0" prefHeight="82.0" prefWidth="0.0" styleClass="accounts_view" />
+   </children>
+</AnchorPane>

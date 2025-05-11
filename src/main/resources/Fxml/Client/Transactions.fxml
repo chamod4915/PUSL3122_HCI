@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+
+<AnchorPane prefHeight="740.0" prefWidth="850.0" styleClass="transactions_container" stylesheets="@../../Styles/Transactions.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.furniwise.pusl3122_hci_project.Controllers.Client.TransactionsController">
+   <Label layoutX="470.0" layoutY="29.0" style="-fx-padding: 5; -fx-font-size: 30; -fx-font-weight: semi-bold; -fx-text-fill: black; -fx-alignment: center;" text="All Furnitures" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+   <AnchorPane layoutX="38.0" layoutY="130.0" prefHeight="66.0" prefWidth="778.0" styleClass="cell_container" stylesheets="@../../Styles/TransactionCell.css">
+      <VBox layoutX="14.0" layoutY="16.0" prefHeight="50.0" prefWidth="80.0" styleClass="trans_icon_container" AnchorPane.leftAnchor="14.0">
+         <FontAwesomeIconView fx:id="in_icon" glyphName="TABLE" size="20" style="-fx-fill: #0096FF;" />
+      </VBox>
+      <Line endY="36.5" layoutX="389.0" layoutY="20.0" AnchorPane.leftAnchor="388.5" AnchorPane.topAnchor="19.5" />
+      <Label fx:id="receiver_lbl" layoutX="104.0" layoutY="23.0" style="-fx-font-size: 20;" styleClass="trans_pAddress_lbl" text="Chair" AnchorPane.leftAnchor="104.0" AnchorPane.topAnchor="23.0" />
+      <Button fx:id="chair_2D_btn" layoutX="541.0" layoutY="15.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="58.0" style="-fx-padding: 10;" styleClass="trans_amount_lbl" text="2D" AnchorPane.bottomAnchor="14.0" AnchorPane.topAnchor="15.0" />
+      <Button fx:id="chair_3D_btn" layoutX="470.0" layoutY="15.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="58.0" style="-fx-padding: 10;" styleClass="trans_amount_lbl" text="3D" AnchorPane.bottomAnchor="14.0" AnchorPane.rightAnchor="37.0" AnchorPane.topAnchor="15.0" />
+   </AnchorPane>
+   <AnchorPane layoutX="35.0" layoutY="285.0" prefHeight="66.0" prefWidth="778.0" styleClass="cell_container" stylesheets="@../../Styles/TransactionCell.css">
+      <VBox layoutX="14.0" layoutY="16.0" prefHeight="50.0" prefWidth="80.0" styleClass="trans_icon_container" AnchorPane.leftAnchor="14.0">
+         <FontAwesomeIconView fx:id="in_icon1" glyphName="TABLE" size="20" style="-fx-fill: #0096FF;" />
+      </VBox>
+      <Line endY="36.5" layoutX="389.0" layoutY="23.0" AnchorPane.leftAnchor="388.5" AnchorPane.topAnchor="22.5" />
+      <Label fx:id="receiver_lbl1" layoutX="104.0" layoutY="23.0" style="-fx-font-size: 20;" styleClass="trans_pAddress_lbl" text="Round Table" AnchorPane.leftAnchor="104.0" AnchorPane.topAnchor="23.0" />
+      <Button fx:id="round_table_2d_btn" layoutX="544.0" layoutY="15.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="58.0" style="-fx-padding: 10;" styleClass="trans_amount_lbl" text="2D" AnchorPane.bottomAnchor="14.0" AnchorPane.topAnchor="15.0" />
+      <Button fx:id="round_table_3d_btn" layoutX="470.0" layoutY="15.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="58.0" style="-fx-padding: 10;" styleClass="trans_amount_lbl" text="3D" AnchorPane.bottomAnchor="14.0" AnchorPane.rightAnchor="37.0" AnchorPane.topAnchor="15.0" />
+   </AnchorPane>
+   <AnchorPane layoutX="35.0" layoutY="365.0" prefHeight="66.0" prefWidth="778.0" styleClass="cell_container" stylesheets="@../../Styles/TransactionCell.css">
+      <VBox layoutX="14.0" layoutY="16.0" prefHeight="50.0" prefWidth="80.0" styleClass="trans_icon_container" AnchorPane.leftAnchor="14.0">
+         <FontAwesomeIconView fx:id="in_icon2" glyphName="TABLE" size="20" style="-fx-fill: #0096FF;" />
+      </VBox>
+      <Line endY="36.5" layoutX="389.0" layoutY="20.0" AnchorPane.leftAnchor="388.5" AnchorPane.topAnchor="19.5" />
+      <Label fx:id="receiver_lbl2" layoutX="104.0" layoutY="23.0" style="-fx-font-size: 20;" styleClass="trans_pAddress_lbl" text="Bed" AnchorPane.leftAnchor="104.0" AnchorPane.topAnchor="23.0" />
+      <Button fx:id="bed_2d_btn" layoutX="545.0" layoutY="15.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="58.0" style="-fx-padding: 10;" styleClass="trans_amount_lbl" text="2D" AnchorPane.bottomAnchor="14.0" AnchorPane.topAnchor="15.0" />
+      <Button fx:id="bed_3d_btn" layoutX="470.0" layoutY="15.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="58.0" style="-fx-padding: 10;" styleClass="trans_amount_lbl" text="3D" AnchorPane.bottomAnchor="14.0" AnchorPane.rightAnchor="37.0" AnchorPane.topAnchor="15.0" />
+   </AnchorPane>
+   <AnchorPane layoutX="38.0" layoutY="211.0" prefHeight="66.0" prefWidth="778.0" styleClass="cell_container" stylesheets="@../../Styles/TransactionCell.css">
+      <VBox layoutX="14.0" layoutY="16.0" prefHeight="50.0" prefWidth="80.0" styleClass="trans_icon_container" AnchorPane.leftAnchor="14.0">
+         <FontAwesomeIconView fx:id="in_icon3" glyphName="TABLE" size="20" style="-fx-fill: #0096FF;" />
+      </VBox>
+      <Line endY="36.5" layoutX="389.0" layoutY="20.0" AnchorPane.leftAnchor="388.5" AnchorPane.topAnchor="19.5" />
+      <Label fx:id="receiver_lbl3" layoutX="104.0" layoutY="23.0" style="-fx-font-size: 20;" styleClass="trans_pAddress_lbl" text="Table" AnchorPane.leftAnchor="104.0" AnchorPane.topAnchor="23.0" />
+      <Button fx:id="table_2D_btn" layoutX="542.0" layoutY="15.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="58.0" style="-fx-padding: 10;" styleClass="trans_amount_lbl" text="2D" AnchorPane.bottomAnchor="14.0" AnchorPane.topAnchor="15.0" />
+      <Button fx:id="table_3D_btn" layoutX="470.0" layoutY="15.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="58.0" style="-fx-padding: 10;" styleClass="trans_amount_lbl" text="3D" AnchorPane.bottomAnchor="14.0" AnchorPane.rightAnchor="37.0" AnchorPane.topAnchor="15.0" />
+   </AnchorPane>
+</AnchorPane>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<!--<AnchorPane xmlns="http://javafx.com/javafx"-->
+<!--            xmlns:fx="http://javafx.com/fxml"-->
+<!--            fx:controller="org.furniwise.pusl3122_hci_project.Controllers.Client.ClientController"-->
+<!--            prefHeight="400.0" prefWidth="600.0">-->
+
+<!--</AnchorPane>-->
+
+<BorderPane fx:id="client_parent" xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+>
+
+    <left>
+        <fx:include source="ClientMenu.fxml"/>
+    </left>
+<!--    <center>-->
+<!--        &lt;!&ndash; Use a Group container to hold the 3D chair &ndash;&gt;-->
+<!--        <Group>-->
+<!--            &lt;!&ndash; Add the SubScene for the 3D chair &ndash;&gt;-->
+<!--            <SubScene fx:id="subScene" width="600.0" height="400.0">-->
+<!--                &lt;!&ndash; Add the 3D chair here &ndash;&gt;-->
+<!--            </SubScene>-->
+<!--            &lt;!&ndash; Include the Accounts.fxml file &ndash;&gt;-->
+<!--            <fx:include source="Accounts.fxml"/>-->
+<!--        </Group>-->
+<!--    </center>-->
+    <center>
+
+
+            <fx:include source="Dashboard.fxml"/>
+
+
+</center>
+
+
+
+</BorderPane>

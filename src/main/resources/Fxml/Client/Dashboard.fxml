@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import java.lang.String?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="700.0" prefWidth="850.0" styleClass="dashboard" stylesheets="@../../Styles/Dashboard.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.furniwise.pusl3122_hci_project.Controllers.Client.DashboardController">
+   <Text fx:id="user_name" layoutX="77.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-text-transform: capitalize;" styleClass="user_name" text="Randima" AnchorPane.topAnchor="26.0" />
+   <Label fx:id="login_date" layoutX="712.0" layoutY="39.0" styleClass="date_lbl" text="Today,09/05/2025" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="27.0" />
+   <Text layoutX="2.0" layoutY="101.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="section_title" text="Current Status" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="90.0" />
+   <HBox layoutX="14.0" layoutY="121.0" prefHeight="238.0" prefWidth="806.0" styleClass="accounts_view" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="120.0">
+      <AnchorPane prefHeight="182.0" prefWidth="295.0">
+         <styleClass>
+            <String fx:value="account" />
+            <String fx:value="account_gradient" />
+         </styleClass>
+         <Label fx:id="checking_bal" layoutX="129.0" layoutY="98.0" styleClass="account_balance" text="4" AnchorPane.leftAnchor="129.0" AnchorPane.topAnchor="98.0" />
+         <VBox layoutX="174.0" prefHeight="166.0" prefWidth="35.0" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="14.0" />
+         <FontAwesomeIconView glyphName="BANK" layoutX="258.0" layoutY="46.0" size="30" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="7.0" />
+         <Text layoutX="15.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Available 2D Furnitures" AnchorPane.bottomAnchor="177.5" AnchorPane.leftAnchor="15.0" />
+      </AnchorPane>
+      <AnchorPane prefHeight="150.0" prefWidth="295.0">
+         <AnchorPane layoutY="-2.0" prefHeight="212.0" prefWidth="295.0">
+            <styleClass>
+               <String fx:value="account" />
+               <String fx:value="account_gradient" />
+            </styleClass>
+            <Label fx:id="savings_bal" layoutX="129.0" layoutY="92.0" styleClass="account_balance" text="4" AnchorPane.leftAnchor="129.0" AnchorPane.topAnchor="92.0" />
+            <VBox layoutX="174.0" prefHeight="158.0" prefWidth="35.0" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="14.0" />
+            <FontAwesomeIconView glyphName="BANK" layoutX="258.0" layoutY="46.0" size="30" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="7.0" />
+            <Text layoutX="14.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Available 3D Furnitures" AnchorPane.bottomAnchor="166.5" AnchorPane.leftAnchor="14.0" />
+         </AnchorPane>
+      </AnchorPane>
+   </HBox>
+   <HBox layoutX="22.0" layoutY="398.0" prefHeight="238.0" prefWidth="806.0" styleClass="accounts_view">
+      <children>
+         <AnchorPane prefHeight="182.0" prefWidth="295.0">
+            <styleClass>
+               <String fx:value="account" />
+               <String fx:value="account_gradient" />
+            </styleClass>
+            <children>
+               <Label fx:id="checking_bal1" layoutX="121.0" layoutY="94.0" styleClass="account_balance" text="1" AnchorPane.leftAnchor="121.0" AnchorPane.topAnchor="94.0" />
+               <VBox layoutX="174.0" prefHeight="166.0" prefWidth="35.0" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="14.0" />
+               <FontAwesomeIconView glyphName="BANK" layoutX="258.0" layoutY="46.0" size="30" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="7.0" />
+               <Text layoutX="14.0" layoutY="43.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Available Room Designs" AnchorPane.bottomAnchor="170.0" AnchorPane.leftAnchor="14.0" />
+            </children>
+         </AnchorPane>
+         <AnchorPane prefHeight="150.0" prefWidth="295.0">
+            <children>
+               <AnchorPane layoutY="-2.0" prefHeight="212.0" prefWidth="295.0">
+                  <styleClass>
+                     <String fx:value="account" />
+                     <String fx:value="account_gradient" />
+                  </styleClass>
+                  <children>
+                     <Label fx:id="user_count_lbl" layoutX="114.0" layoutY="92.0" styleClass="account_balance" text="7" AnchorPane.leftAnchor="114.0" AnchorPane.topAnchor="92.0" />
+                     <VBox layoutX="174.0" prefHeight="158.0" prefWidth="35.0" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="14.0" />
+                     <FontAwesomeIconView glyphName="BANK" layoutX="258.0" layoutY="46.0" size="30" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="7.0" />
+                     <Text layoutX="14.0" layoutY="43.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Current Users" AnchorPane.bottomAnchor="164.0" AnchorPane.leftAnchor="14.0" />
+                  </children>
+               </AnchorPane>
+            </children>
+         </AnchorPane>
+      </children>
+   </HBox>
+   <Text layoutX="42.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="user_name" text="Hi" wrappingWidth="34.28571319580078" AnchorPane.topAnchor="26.0" />
+</AnchorPane>
